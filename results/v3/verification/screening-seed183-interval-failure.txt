@@ -1,0 +1,15 @@
+Rejected screening unit:
+depth_case=depth15
+seed=183
+controller_id=w3-e2-c2
+simulator_return_code=0
+runner_verdict=rejected
+
+Captured terminal markers:
+EXPERIMENT_COMPLETE .../results/v3/runs/screening/moderate/depth15/proposed/w3-e2-c2/seed-183
+SEVERE: AdaptiveExperimentAgent/A > Exception in agent: experiment
+SEVERE: AdaptiveExperimentAgent/A > Agent experiment died: java.lang.IllegalArgumentException: Interval changed within window
+
+Root cause: a previous-window controller decision changed the proposed interval
+after the next original window had already started. The scheduler now latches
+the interval at position 1 and releases it after position 10.

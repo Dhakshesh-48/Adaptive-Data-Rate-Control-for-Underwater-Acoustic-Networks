@@ -1,0 +1,42 @@
+{
+  "controller_id": "w2-e4-c3",
+  "weights": [
+    0.15,
+    0.55,
+    0.15,
+    0.15
+  ],
+  "rtt_reference_ms": 10000,
+  "healthy_threshold": 0.5,
+  "poor_threshold": 0.7,
+  "reliability_floor": 0.5,
+  "probe_margin": 0.01,
+  "retry_every_new": 4,
+  "max_retries_per_window": 3,
+  "ack_policy": "window-tail",
+  "minimum_depth_gain_pct": 30.68821265512442,
+  "minimum_depth_pdr_gain_pp": 20.91680252647985,
+  "depth_gains_pct": {
+    "depth15": 31.110415147566847,
+    "depth1000": 30.68821265512442
+  },
+  "depth_pdr_gains_pp": {
+    "depth15": 22.422680752143364,
+    "depth1000": 20.91680252647985
+  },
+  "selection": "require both-depth +5% throughput and +5 PDR points; maximize minimum throughput gain; ties minimum PDR gain, retry overhead, control overhead, declaration order",
+  "protocol_version": "3",
+  "measurement_s": 180,
+  "calibration_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ]
+}

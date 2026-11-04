@@ -1,0 +1,16 @@
+Task 4 analysis verification
+Date: 2026-10-29
+
+RED: `python -m unittest tests.test_analysis -v` failed because
+`compute_depth_effects` did not exist; retry-safe metrics and paired PDR
+confidence intervals were also absent.
+
+GREEN: `python -m unittest tests.test_analysis -v`
+Ran 10 tests in 0.115s - OK
+
+Regression: `python -m unittest discover -s tests -p "test_*.py" -v`
+Ran 20 tests in 0.089s - OK
+
+Verified that retry attempts and duplicate deliveries do not increase unique
+generated/delivered counts, PDR, or useful throughput. Paired throughput/PDR
+intervals and paired depth-effect verdicts are covered by synthetic tests.

@@ -1,0 +1,18 @@
+Task 2 RED:
+MissingMethodException: ExperimentState.recordOriginal(...) did not exist.
+
+Task 2 GREEN:
+STATE_TEST_PASS
+
+Covered behaviors:
+- stable unique-message identity across original and retry attempts
+- duplicate-attempt rejection
+- non-ACK-requested attempts excluded from timeout accounting
+- attempt-specific ACK and RTT tracking
+- receiver snapshot expected/delivered/missing sets
+- first valid snapshot remains final for online window metrics
+- retry attempts do not enlarge the unique-message denominator
+- ordered terminal-window commits and missing-RTT handling
+
+Regression suite:
+All six Groovy suites passed; all 18 Python tests passed.

@@ -1,0 +1,24 @@
+Task 3 focused and complete Groovy suite
+Date: 2026-10-29
+
+RUN tests\protocol-test.groovy
+PROTOCOL_TEST_PASS
+RUN tests\state-test.groovy
+STATE_TEST_PASS
+RUN tests\retry-scheduler-test.groovy
+RETRY_SCHEDULER_TEST_PASS
+RUN tests\agent-state-test.groovy
+AGENT_STATE_TEST_PASS
+RUN tests\controller-test.groovy
+CONTROLLER_TEST_PASS
+RUN tests\scenario-test.groovy
+SCENARIO_TEST_PASS
+RUN tests\smoke-test.groovy
+SMOKE_TEST_PASS
+
+UnetStack integration RED: tmp/v3-red-agent-20261029
+Observed MissingMethodException for the old ProtocolCodec.data(Integer,Integer) call.
+
+UnetStack integration GREEN: tmp/v3-green-retry-20261029
+Observed protocol_version=3, proposed original ACK thinning, an attempt-2 RETRY,
+a unique LATE_DATA delivery for that retry, and an attempt-2 ACK transmission.

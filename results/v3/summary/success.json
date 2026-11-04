@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "gates": {
+    "depth15": {
+      "goodput_point": true,
+      "goodput_ci": true,
+      "pdr_point": true,
+      "pdr_ci": true
+    },
+    "depth1000": {
+      "goodput_point": true,
+      "goodput_ci": true,
+      "pdr_point": true,
+      "pdr_ci": true
+    }
+  },
+  "targets_pct": {
+    "depth15": 5.0,
+    "depth1000": 5.0
+  }
+}

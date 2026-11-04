@@ -1,0 +1,3 @@
+window,average_rtt_ms,packet_loss_ratio,ack_ratio,timeout_ratio,weighted_score,decision,next_interval_ms,source_seed,source_run,observation
+2,6333.0,0.1,0.5,0.5,0.299995,accumulate,3000.0,212,results\v3\runs\evaluation\moderate\depth1000\proposed\w2-e4-c3\seed-212,1
+4,8824.5,0.4,1.0,0.0,0.35236750000000006,accumulate,3000.0,217,results\v3\runs\evaluation\moderate\depth1000\proposed\w2-e4-c3\seed-217,2

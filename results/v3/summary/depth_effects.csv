@@ -1,0 +1,3 @@
+mode,paired_seeds,throughput_change_bps,throughput_ci95_low,throughput_ci95_high,verdict
+fixed,20,3.9822222222222217,0.5688888888888883,7.822222222222221,positive
+proposed,20,-1.1377777777777758,-3.555555555555556,1.422222222222225,inconclusive

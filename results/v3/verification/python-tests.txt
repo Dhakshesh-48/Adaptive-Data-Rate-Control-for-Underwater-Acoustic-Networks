@@ -1,0 +1,20 @@
+Task 5 orchestration and calibration verification
+Date: 2026-10-29
+
+RED observations:
+- runner tests could not import `simulator_output_failed`;
+- calibration still required old PDR/RTT guardrails and failed on the new schema;
+- resume validation initially accepted a completed manifest whose stdout contained
+  `SEVERE: Agent experiment died`.
+
+GREEN: `python -m unittest discover -s tests -p "test_*.py" -v`
+Ran 20 tests in 0.175s - OK
+
+Runner integration smoke:
+`run_one` completed fixed seed 9004 through the normal `bin\unet.bat` path at
+`tmp/v3-runner-smoke-root/runner-smoke/moderate/depth15/fixed/fixed/seed-9004`.
+
+Verified protocol version 3, seeds 181-185 / 201-210 / 211-230,
+fixed-and-proposed-only evaluation, the 3 x 3 retry grid across three weight
+sets, exact retry/ACK manifest identity, both +5 targets, deterministic
+four-candidate advancement, and explicit no-valid-candidate failure.

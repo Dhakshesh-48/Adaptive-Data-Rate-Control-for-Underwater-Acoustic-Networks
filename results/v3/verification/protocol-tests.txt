@@ -1,0 +1,14 @@
+Task 1 RED:
+MissingMethodException: ProtocolCodec.data(int,int,int,boolean) did not exist.
+
+Task 1 GREEN:
+PROTOCOL_TEST_PASS
+
+Regression suite:
+PROTOCOL_TEST_PASS
+STATE_TEST_PASS
+AGENT_STATE_TEST_PASS
+CONTROLLER_TEST_PASS
+SCENARIO_TEST_PASS
+SMOKE_TEST_PASS
+Python: 18 tests passed.

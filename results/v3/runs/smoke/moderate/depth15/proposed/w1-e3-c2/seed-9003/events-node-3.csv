@@ -1,0 +1,13 @@
+event,node,mode,scenario,depth_case,seed,seq,window_id,peer,time_ms,rtt_ms,interval_ms,score,pr,pl,pa,pt,action,payload_bytes,status,attempt,ack_requested
+DELIVER,3,proposed,moderate,depth15,9003,1,1,1,62186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,3,1,1,68186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,5,1,1,74186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,7,1,1,80186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,11,2,1,92186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,13,2,1,98186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,15,2,1,104186,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,17,2,1,110892,,3000,,,,,,,64,unique,1,false
+DELIVER,3,proposed,moderate,depth15,9003,19,2,1,120039,,3000,,,,,,,64,unique,1,true
+ACK_TX,3,proposed,moderate,depth15,9003,19,2,1,120039,,3000,,,,,,,20,snapshot-1,1,true
+DELIVER,3,proposed,moderate,depth15,9003,25,3,1,137186,,3000,,,,,,,64,unique,1,false
+REPORT_TX,3,proposed,moderate,depth15,9003,0,3,1,155677,,3000,,,,,,,8,sent,,
