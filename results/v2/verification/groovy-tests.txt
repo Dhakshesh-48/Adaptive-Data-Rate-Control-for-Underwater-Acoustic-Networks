@@ -1,0 +1,4 @@
+Commands: scripts\run-groovy-tests.ps1 for smoke, protocol, state, controller, scenario, and agent-state tests
+Result: 6/6 passed
+Markers: SMOKE_TEST_PASS, PROTOCOL_TEST_PASS, STATE_TEST_PASS, CONTROLLER_TEST_PASS, SCENARIO_TEST_PASS, AGENT_STATE_TEST_PASS
+Integration: proposed/moderate/depth15/seed9002/80s completed under results/v2/verification/agent-integration-fixed with protocol_version 2 and no agent exception.

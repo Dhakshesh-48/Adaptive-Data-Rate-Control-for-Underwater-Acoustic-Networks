@@ -1,0 +1,3 @@
+Command: powershell -NoProfile -ExecutionPolicy Bypass -File scripts\run-groovy-tests.ps1 tests\state-test.groovy
+Result: exit 0
+Output: STATE_TEST_PASS

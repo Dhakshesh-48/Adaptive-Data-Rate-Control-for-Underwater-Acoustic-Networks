@@ -1,0 +1,11 @@
+event,node,mode,scenario,depth_case,seed,seq,window_id,peer,time_ms,rtt_ms,interval_ms,score,pr,pl,pa,pt,action,payload_bytes,status
+DELIVER,2,proposed,moderate,depth15,9001,4,1,1,70520,,3000,,,,,,,64,unique
+ACK_TX,2,proposed,moderate,depth15,9001,4,1,1,70520,,3000,,,,,,,11,no-snapshot
+DELIVER,2,proposed,moderate,depth15,9001,6,1,1,76520,,3000,,,,,,,64,unique
+ACK_TX,2,proposed,moderate,depth15,9001,6,1,1,76520,,3000,,,,,,,11,no-snapshot
+DELIVER,2,proposed,moderate,depth15,9001,10,1,1,92693,,3000,,,,,,,64,unique
+ACK_TX,2,proposed,moderate,depth15,9001,10,1,1,92693,,3000,,,,,,,12,no-snapshot
+DELIVER,2,proposed,moderate,depth15,9001,12,2,1,94520,,3000,,,,,,,64,unique
+ACK_TX,2,proposed,moderate,depth15,9001,12,2,1,94520,,3000,,,,,,,17,snapshot-1
+DELIVER,2,proposed,moderate,depth15,9001,14,2,1,100520,,3000,,,,,,,64,unique
+ACK_TX,2,proposed,moderate,depth15,9001,14,2,1,100520,,3000,,,,,,,17,snapshot-1

@@ -1,0 +1,3 @@
+Command: powershell -NoProfile -ExecutionPolicy Bypass -File scripts\run-groovy-tests.ps1 tests\controller-test.groovy
+Result: exit 0
+Output: CONTROLLER_TEST_PASS

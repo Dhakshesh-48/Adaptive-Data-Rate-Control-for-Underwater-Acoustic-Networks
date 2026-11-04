@@ -22,4 +22,4 @@ __pycache__/
 
 /docs/superpowers/
 /scripts/.unet-shell-history*
-/results/v3/runs/**/stdout.txt
+/results/**/stdout.txt

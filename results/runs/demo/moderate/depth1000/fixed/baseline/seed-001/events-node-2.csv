@@ -1,0 +1,12 @@
+event,node,mode,scenario,depth_case,seed,seq,window_id,peer,time_ms,rtt_ms,interval_ms,score,pr,pl,pa,pt,action,payload_bytes,status
+DELIVER,2,fixed,moderate,depth1000,1,4,1,1,70520,,3000,,,,,,,64,unique
+DELIVER,2,fixed,moderate,depth1000,1,6,1,1,76520,,3000,,,,,,,64,unique
+DELIVER,2,fixed,moderate,depth1000,1,8,1,1,82520,,3000,,,,,,,64,unique
+DELIVER,2,fixed,moderate,depth1000,1,10,1,1,88520,,3000,,,,,,,64,unique
+REPORT,2,fixed,moderate,depth1000,1,0,1,1,90226,,3000,,,,,,,14,sent
+DELIVER,2,fixed,moderate,depth1000,1,12,2,1,94520,,3000,,,,,,,64,unique
+DELIVER,2,fixed,moderate,depth1000,1,14,2,1,104505,,3000,,,,,,,64,unique
+REPORT,2,fixed,moderate,depth1000,1,0,1,1,106211,,3000,,,,,,,14,sent
+DELIVER,2,fixed,moderate,depth1000,1,16,2,1,107917,,3000,,,,,,,64,unique
+DELIVER,2,fixed,moderate,depth1000,1,18,2,1,113602,,3000,,,,,,,64,unique
+REPORT,2,fixed,moderate,depth1000,1,0,2,1,131373,,3000,,,,,,,17,sent

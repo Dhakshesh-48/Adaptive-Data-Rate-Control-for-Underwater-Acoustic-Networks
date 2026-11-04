@@ -1,0 +1,23 @@
+{
+  "mode": "fixed",
+  "scenario": "moderate",
+  "depth_case": "depth15",
+  "depth_m": 15,
+  "seed": 13,
+  "window_size": 10,
+  "ack_timeout_ms": 12000,
+  "measurement_s": 180,
+  "weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "healthy_threshold": 0.15,
+  "poor_threshold": 0.3,
+  "status": "complete",
+  "simulated_total_s": 264,
+  "unet_version": "7.0.0",
+  "java_version": "1.8.0_471",
+  "weight_name": "baseline"
+}

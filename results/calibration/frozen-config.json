@@ -1,0 +1,22 @@
+{
+  "weight_name": "timeout",
+  "weights": [
+    0.2,
+    0.25,
+    0.2,
+    0.35
+  ],
+  "selection": "maximum calibration mean goodput subject to per-depth aggregate PDR and median-RTT guardrails",
+  "calibration_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+}

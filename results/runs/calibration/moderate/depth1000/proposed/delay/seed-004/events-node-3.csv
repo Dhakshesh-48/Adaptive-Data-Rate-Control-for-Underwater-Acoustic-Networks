@@ -1,0 +1,17 @@
+event,node,mode,scenario,depth_case,seed,seq,window_id,peer,time_ms,rtt_ms,interval_ms,score,pr,pl,pa,pt,action,payload_bytes,status
+DELIVER,3,proposed,moderate,depth1000,4,1,1,1,62339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,3,1,1,69434,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,5,1,1,74339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,7,1,1,80339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,19,2,1,116339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,21,3,1,122339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,27,3,1,140339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,29,3,1,146339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,33,4,1,158339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,35,4,1,165504,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,37,4,1,171579,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,41,5,1,182396,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,43,5,1,189150,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,53,6,1,218339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,55,6,1,224339,,3000,,,,,,,64,unique
+DELIVER,3,proposed,moderate,depth1000,4,59,6,1,236339,,3000,,,,,,,64,unique

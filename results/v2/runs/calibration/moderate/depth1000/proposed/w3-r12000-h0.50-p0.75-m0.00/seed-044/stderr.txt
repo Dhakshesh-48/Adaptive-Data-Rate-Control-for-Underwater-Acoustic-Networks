@@ -1,0 +1,2 @@
+[31mSEVERE: AdaptiveExperimentAgent/A > Exception in agent: experiment[0m
+[31mSEVERE: AdaptiveExperimentAgent/A > Agent experiment died: java.lang.IllegalArgumentException: Interval changed within window[0m

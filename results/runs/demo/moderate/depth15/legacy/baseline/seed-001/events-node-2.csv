@@ -1,0 +1,5 @@
+event,node,mode,scenario,depth_case,seed,seq,window_id,peer,time_ms,rtt_ms,interval_ms,score,pr,pl,pa,pt,action,payload_bytes,status
+DELIVER,2,legacy,moderate,depth15,1,6,1,1,79708,,3000,,,,,,,64,unique
+DELIVER,2,legacy,moderate,depth15,1,8,1,1,96740,,3000,,,,,,,64,unique
+DELIVER,2,legacy,moderate,depth15,1,10,1,1,116740,,3000,,,,,,,64,unique
+REPORT,2,legacy,moderate,depth15,1,0,1,1,118446,,3000,,,,,,,12,sent
